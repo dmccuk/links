@@ -25,7 +25,7 @@ https://cloud-images.ubuntu.com/locator/ec2/
 
 https://github.com/dmccuk/terraform_modules.git
 
-INTERMITTENT ISSUE: If you see this message in the terraform output:
+If you see this message in the terraform output:
 
 ````
 (remote-exec): E: Could not get lock /var/lib/dpkg/lock-frontend - open (11: Resource temporarily unavailable)
