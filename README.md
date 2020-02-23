@@ -86,6 +86,7 @@ Template: (copy from https://github.com/dmccuk/ansible_nginx/blob/master/templat
 
 ### Chapter 10 - Jenkins Server
 
+  * The Jenkins server is intentially left at Ubuntu Xenial (16.04) in the terraform code. This is due to the support matrix for this course but will be updated in a future release.
   * https://jenkins.io/
 What is CI/CD:
 (source: https://www.atlassian.com/continuous-delivery/principles/continuous-integration-vs-delivery-vs-deployment)
