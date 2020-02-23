@@ -60,7 +60,7 @@ vagrant@devops-box:~/terraform_modules/stack$
 
 ### Chapter 7 & 9
 
-  * When you first connect to a server, you need to vaeify the host-key. when you run ansible for the first time, it will look like it's stuck, but just write "yes" in for each connection and it will work.
+  * When you first connect to a server, you need to verify the host-key. when you run ansible for the first time, it will look like it's stuck, but just write "yes" in for each connection and it will work.
   * https://github.com/dmccuk/ansible_nginx
   * https://www.meetup.com/Ansible-London/
   * https://gist.github.com/rtapadar/2824729b7bad87dd7173f6bbbe5101b8
@@ -77,6 +77,8 @@ Other useful ansible pages for this exercise are:
 
 Template: (copy from https://github.com/dmccuk/ansible_nginx/blob/master/templates/load-balancer.j2)
 
+  * Make sure you look at the bold text in the workbook. It highlights changes you need to make.
+  * when i write webserver1_IP - I mean the IP address in your inventory.
 
 ### Chapter 8 - Configure GitLab
 
