@@ -91,6 +91,8 @@ What is CI/CD:
 (source: https://www.atlassian.com/continuous-delivery/principles/continuous-integration-vs-delivery-vs-deployment)
   * https://dev.to/bugfenderapp/what-is-jenkins-and-why-should-you-be-using-it-2pe
 
+
+  * I've seen the jenkins build fail before due to locking or network issues. Follow the resolution on page 59 if this happens.
 ### Chapter 11 – GitLab and Jenkins Integration 
 No links
 
