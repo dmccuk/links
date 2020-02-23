@@ -60,6 +60,7 @@ vagrant@devops-box:~/terraform_modules/stack$
 
 ### Chapter 7 & 9
 
+  * When you first connect to a server, you need to vaeify the host-key. when you run ansible for the first time, it will look like it's stuck, but just write "yes" in for each connection and it will work.
   * https://github.com/dmccuk/ansible_nginx
   * https://www.meetup.com/Ansible-London/
   * https://gist.github.com/rtapadar/2824729b7bad87dd7173f6bbbe5101b8
