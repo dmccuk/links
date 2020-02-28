@@ -86,8 +86,14 @@ Template: (copy from https://github.com/dmccuk/ansible_nginx/blob/master/templat
 
 ### Chapter 10 - Jenkins Server
 
-  * The Jenkins server is intentially left at Ubuntu Xenial (16.04) in the terraform code. This is due to the support matrix for this course but will be updated in a future release.
-  * https://jenkins.io/
+  * **The Jenkins server is intentially left at Ubuntu Xenial (16.04) in the terraform code. This is due to the support matrix for this course but will be updated in a future release.**
+  
+````
+ami              =  "ami-0f630a3f40b1eb0b8"  #<-- Leave this version in place.
+````
+
+  * More information: https://jenkins.io/
+
 What is CI/CD:
 (source: https://www.atlassian.com/continuous-delivery/principles/continuous-integration-vs-delivery-vs-deployment)
   * https://dev.to/bugfenderapp/what-is-jenkins-and-why-should-you-be-using-it-2pe
@@ -105,6 +111,12 @@ No links
 No links
 
 ### Chapter 14 – Elastic Stack + Beats
+
+  * **The ec2.med server is intentially left at Ubuntu Xenial (16.04) in the terraform code. This is due to the support matrix for this course but will be updated in a future release.**
+  
+````
+ami              =  "ami-0f630a3f40b1eb0b8"  #<-- Leave this version in place.
+````
 
   * https://www.elastic.co/products/
   * https://github.com/dmccuk/ansible_ELK
