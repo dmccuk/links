@@ -49,7 +49,7 @@ drwxrwxr-x 4 vagrant vagrant 4096 Feb 21 17:36 ..
 
 vagrant@devops-box:~/terraform_modules/stack$ cat files/standard.sh
 #!/bin/bash
-sleep 120  add this line.
+sleep 120 #< add this line.
 sudo apt update -yq
 sudo DEBIAN_FRONTEND=noninteractive apt upgrade -yq
 sudo apt install wget curl git python3-minimal -yq
